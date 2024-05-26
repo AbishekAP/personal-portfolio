@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header className={`header ${navActive ? 'nav-active' : ''} ${isVisible ? 'active' : ''}`} data-header>
       <div className="container">
-        <a href="#">
+        <a href="#home">
           <h1 className="logo">Abishek R</h1>
         </a>
 

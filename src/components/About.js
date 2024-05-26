@@ -8,7 +8,7 @@ function About() {
 
           <figure class="about-banner">
 
-            <img src="/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Abishek's Photo"
+            <img src="/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Abishek"
               class="img-cover" />
             <div class="abs-icon abs-icon-1">
               <ion-icon name="logo-css3"></ion-icon>

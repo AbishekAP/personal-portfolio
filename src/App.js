@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import {ToastContainer,toast,Slide} from 'react-toastify';
+import {ToastContainer,Slide} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {

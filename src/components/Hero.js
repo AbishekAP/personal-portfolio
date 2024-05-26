@@ -8,7 +8,7 @@ function Hero(){
         
                 <div class="hero-banner">
         
-                  <img src="/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Abishek's Photo"
+                  <img src="/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Abishek"
                     class="img-cover" />
                     
                   <div class="elem elem-1">

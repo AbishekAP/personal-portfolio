@@ -1,13 +1,14 @@
 
 
 function Footer(){
+  const currentYear = new Date().getFullYear()
     return(
         <>
         <footer class="footer">
           <div class="container">
         
             <p class="copyright">
-              &copy; 2022 <a href="#" class="copyright-link">abishek</a>. All Rights Reseverd
+              &copy; {currentYear} <a href="#home" class="copyright-link">abishek</a>. All Rights Reseverd
             </p>
         
             <ul class="footer-list">
