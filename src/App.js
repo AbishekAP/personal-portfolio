@@ -1,24 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css";
+import About from "./components/About";
+import BackToTop from "./components/BackToTop";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import {ToastContainer,toast,Slide} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ToastContainer
+   position="top-center"
+   autoClose={3000}
+   hideProgressBar
+   newestOnTop={false}
+   closeOnClick
+   rtl={false}
+   pauseOnFocusLoss
+   draggable={false}
+   pauseOnHover
+   theme="dark"
+    transition={Slide}
+    />
+      <Header />
+      <main>
+        <article>
+          {/* #HERO*/}
+
+          <Hero />
+
+          {/*#ABOUT*/}
+
+          <About />
+
+          {/*#Projects*/}
+
+          <Projects />
+
+          {/* #SKILLS*/}
+
+          <Skills />
+
+          {/*#CONTACT*/}
+          <Contact />
+        </article>
+      </main>
+      {/*#FOOTER*/}
+
+      <Footer />
+      {/*#BACK TO TOP-->*/}
+      <BackToTop />
+    </>
   );
 }
 
